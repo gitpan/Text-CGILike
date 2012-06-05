@@ -1,0 +1,31 @@
+---
+abstract: 'Wrapper to create text file using the CGI syntax'
+author:
+  - 'Geistteufel <geistteufel@celogeek.fr>'
+build_requires:
+  Carp: 0
+  File::Find: 0
+  File::Temp: 0
+  Module::Build: 0.3601
+  Scalar::Util: 0
+  Test::More: 0.94
+  perl: 5.004
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120630'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Text-CGILike
+requires:
+  Exporter: 0
+  Moo: 0
+  Text::Format: 0
+  perl: 5.006
+  strict: 0
+  warnings: 0
+resources:
+  repository: https://github.com/geistteufel/Text-CGILike.git
+version: 0.1
