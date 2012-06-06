@@ -4,7 +4,7 @@ Text::CGILike - Wrapper to create text file using the CGI syntax
 
 # VERSION
 
-version 0.1
+version 0.2
 
 # ATTRIBUTES
 

@@ -28,4 +28,4 @@ requires:
   warnings: 0
 resources:
   repository: https://github.com/geistteufel/Text-CGILike.git
-version: 0.1
+version: 0.2
