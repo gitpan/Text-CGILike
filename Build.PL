@@ -20,10 +20,10 @@ my %module_build_args = (
   },
   "dist_abstract" => "Wrapper to create text file using the CGI syntax",
   "dist_author" => [
-    "Geistteufel <geistteufel\@celogeek.fr>"
+    "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "Text-CGILike",
-  "dist_version" => "0.2",
+  "dist_version" => "0.3",
   "license" => "perl",
   "module_name" => "Text::CGILike",
   "recommends" => {},

@@ -1,7 +1,7 @@
 #
 # This file is part of Text-CGILike
 #
-# This software is copyright (c) 2011 by Geistteufel <geistteufel@celogeek.fr>.
+# This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
 #
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
@@ -15,7 +15,7 @@ use warnings;
 use Moo;
 use Text::Format;
 
-our $VERSION = '0.2';    # VERSION
+our $VERSION = '0.3';    # VERSION
 
 our ( @ISA, @EXPORT, %EXPORT_TAGS );
 
@@ -164,7 +164,7 @@ Text::CGILike - Wrapper to create text file using the CGI syntax
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 ATTRIBUTES
 
@@ -190,15 +190,15 @@ L<CGI>
 
 Any bugs or evolution can be submit here :
 
-L<Github|https://github.com/geistteufel/Text-CGILike>
+L<Github|https://github.com/celogeek/Text-CGILike>
 
 =head1 AUTHOR
 
-Geistteufel <geistteufel@celogeek.fr>
+celogeek <me@celogeek.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Geistteufel <geistteufel@celogeek.fr>.
+This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
