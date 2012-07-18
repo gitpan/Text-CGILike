@@ -7,7 +7,6 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "Carp" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Module::Build" => "0.3601",
@@ -23,16 +22,16 @@ my %module_build_args = (
     "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "Text-CGILike",
-  "dist_version" => "0.3",
+  "dist_version" => "0.4",
   "license" => "perl",
   "module_name" => "Text::CGILike",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Exporter" => 0,
+    "Carp" => 0,
     "Moo" => 0,
     "Text::Format" => 0,
-    "perl" => "5.006",
+    "perl" => "5.010",
     "strict" => 0,
     "warnings" => 0
   },
