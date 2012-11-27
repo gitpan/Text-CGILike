@@ -16,7 +16,7 @@ use Moo;
 use Text::Format;
 use Carp;
 
-our $VERSION = '0.4';    # VERSION
+our $VERSION = '0.5';    # VERSION
 
 my $_DEFAULT_CLASS;
 
@@ -220,6 +220,8 @@ sub import {
 
 1;
 
+__END__
+
 =pod
 
 =head1 NAME
@@ -228,7 +230,7 @@ Text::CGILike - Wrapper to create text file using the CGI syntax
 
 =head1 VERSION
 
-version 0.4
+version 0.5
 
 =head1 OVERVIEW
 
@@ -314,7 +316,7 @@ L<CGI>
 =head1 BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-https://github.com/celogeek/Text-CGILike/issues
+http://tasks.celogeek.com/projects/perl-modules-text-cgilike
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -332,6 +334,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-__END__
-

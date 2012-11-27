@@ -22,7 +22,7 @@ my %module_build_args = (
     "celogeek <me\@celogeek.com>"
   ],
   "dist_name" => "Text-CGILike",
-  "dist_version" => "0.4",
+  "dist_version" => "0.5",
   "license" => "perl",
   "module_name" => "Text::CGILike",
   "recommends" => {},
