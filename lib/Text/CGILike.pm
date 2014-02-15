@@ -1,7 +1,7 @@
 #
 # This file is part of Text-CGILike
 #
-# This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
+# This software is copyright (c) 2014 by celogeek <me@celogeek.com>.
 #
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
@@ -16,7 +16,7 @@ use Moo;
 use Text::Format;
 use Carp;
 
-our $VERSION = '0.5';    # VERSION
+our $VERSION = '0.6';    # VERSION
 
 my $_DEFAULT_CLASS;
 
@@ -197,7 +197,7 @@ my %EXPORT_MAP = (
 sub import {
     my ( $self, $to_import_str ) = @_;
     my @to_import = $to_import_str =~ /(:?\w+)/gx;
-    my $caller = caller;
+    my $caller    = caller;
 
     for my $sym ( _expand_arr( \%EXPORT_MAP, @to_import ) ) {
         unless ( $caller->can($sym) ) {
@@ -230,7 +230,7 @@ Text::CGILike - Wrapper to create text file using the CGI syntax
 
 =head1 VERSION
 
-version 0.5
+version 0.6
 
 =head1 OVERVIEW
 
@@ -255,6 +255,10 @@ To change columns using keywords
 
     my ($TCGI) = Text::CGILike->DEFAULT_CLASS;
     $TCGI->columns($columns);
+
+=head2 columns
+
+number of columns to use by default
 
 =head1 METHODS
 
@@ -316,7 +320,7 @@ L<CGI>
 =head1 BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-http://tasks.celogeek.com/projects/perl-modules-text-cgilike
+https://github.com/celogeek/Text-CGILike/issues
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -328,7 +332,7 @@ celogeek <me@celogeek.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
+This software is copyright (c) 2014 by celogeek <me@celogeek.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
